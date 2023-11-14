@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.batu {
+    @apply bg-red-600 text-white p-5 font-semibold rounded-md;
+}
+
+.gunting {
+    @apply bg-blue-800 p-5 rounded-lg text-white;
+}
+
+.kertas {
+    @apply bg-green-800 p-5 rounded-lg text-white;
+}
